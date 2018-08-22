@@ -1,0 +1,12 @@
+---
+
+default: -p pretty -p html -p chrome
+
+pretty: --format pretty
+progress: --format progress
+html: --format html --out=logs/relatorio.html
+
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+frefox: BROWSER=firefox
+frefox_headless: BROWSER=firefox_headless
